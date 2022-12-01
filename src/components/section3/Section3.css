@@ -1,0 +1,40 @@
+.post {
+  margin-top: 90px;
+  margin-bottom: 29px;
+
+}
+
+.box1 {
+  margin: 10px 10px 10px 0;
+  max-width: 285px;
+}
+
+.box1 img {
+  max-width: 285px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 21px 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 205px;
+  border: 1px solid;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'librefranklin medium'; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.button:hover {
+  background-color: #E6E6E6;
+}

@@ -1,0 +1,30 @@
+.border-bottom {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.box {
+  margin: 10px 10px 10px 0;
+  max-width: 389px;
+}
+
+.card_container img {
+  margin-bottom: 19px;
+}
+
+.card_container h2 {
+  margin-top: 18px;
+  margin-bottom: 15px;
+  font-family: 'Tenor Sans', sans-serif;
+  /* font-family: 'tenor-sans'; */
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  text-transform: uppercase;
+}

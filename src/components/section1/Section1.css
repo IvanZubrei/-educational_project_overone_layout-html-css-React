@@ -1,0 +1,68 @@
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 59px;
+  margin-bottom: 60px;
+}
+
+.box_img img {
+  max-width: 667px;
+}
+
+.illustration {
+  max-width: 480px;
+}
+
+
+
+h1 {
+  font-family: 'Tenor Sans', sans-serif;
+  /* font-family: 'tenor-sans'; */
+  font-size: 36px;
+  color: #000000;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 27px;
+}
+
+.illustration p {
+  font-family: 'Source Serif Pro', serif;
+  /* font-family: 'Source-serif-pro'; */
+  font-size: 16px;
+  color: #666666;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+.illustration_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'librefranklin medium'; */
+  font-size: 10px;
+  color: #999999
+}
+
+.illustration_link:hover {
+  color: #000000;
+  transition: all 0.2s linear;
+}
+
+.by {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'librefranklin medium'; */
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10px;
+  color: #000000;
+}
+
+
+.by:hover {
+  color: #999999;
+  transition: all 0.2s linear;
+}

@@ -1,0 +1,81 @@
+/* @font-face {
+  font-family: 'librefranklin-medium';
+  src: local('librefranklin medium'), local('librefranklin-medium'),
+    url('../fonts/librefranklin-medium/librefranklin-medium.woff2') format('woff2'),
+    url('../fonts/librefranklin-medium/librefranklin-medium.woff') format('woff'),
+    url('../fonts/librefranklin-medium/librefranklin-medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'tenor-sans';
+  src: local('tenor sans'), local('tenor-sans'),
+    url('./fonts/tenor/tenorsans.woff2') format('woff2'),
+    url('./fonts/tenor/tenorsans.woff') format('woff'),
+    url('./fonts/tenor/tenorsans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source-serif-pro';
+  src: local('Source serif pro'), local('Source-serif-pro'),
+    url('./fonts/source-serif-pro/Sourceserifpro.woff2') format('woff2'),
+    url('./fonts/source-serif-pro/Sourceserifpro.woff') format('woff'),
+    url('./fonts/source-serif-pro/Sourceserifpro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+
+} */
+
+
+.burger-menu {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E6E6;
+  margin-top: 36px;
+
+}
+
+.nav__list {
+  display: flex;
+  margin-bottom: 36px;
+  list-style: none;
+}
+
+.nav__item {
+  width: 70px;
+}
+
+.nav__item_about {
+  margin-right: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'librefranklin medium'; */
+  font-size: 14px;
+  color: #000000;
+  transition: all 0.2s linear;
+}
+
+.nav__link:hover {
+  color: #828282;
+}
+
+.nav_link_hover:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
